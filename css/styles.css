@@ -24,7 +24,10 @@ a {
 }
 
 body {
-  background-image: url(/img/background/Backgroud_desktop.png);
+  background-image:
+  url(../img/background/Backgroud_desktop.png);
+  background-repeat: no-repeat;
+  background-size:1200px ;
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
   font-family: Montserrat, Seymour One Book, Inter, DM Sans ;
@@ -48,11 +51,17 @@ ul {
 .hero{
   display: block;
   width: 1200px;
+  height: 664px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
   background-color: #84A178;
+  background-image: url(../img/desktop.png),
+  url(../img/много\ мороженок\ 1.png),
+  url(../img/Крапки.svg);
+  background-size:420px, 225px,1200px;
+  background-repeat: no-repeat;
 }
 .hero-header{
   display: flex;
