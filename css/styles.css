@@ -24,16 +24,13 @@ a {
 }
 
 body {
-  background-image:
-  url(../img/background/Backgroud_desktop.png);
-  background-repeat: no-repeat;
-  background-size:1200px ;
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
   font-family: Montserrat, Seymour One Book, Inter, DM Sans ;
   font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  
 }
 
 img {
@@ -48,20 +45,29 @@ ul {
   padding: 0;
   margin-bottom: 0;
 }
-.hero{
-  display: block;
+section{
+  margin-right: auto;
+  margin-left: auto;
   width: 1200px;
-  height: 664px;
-  padding-left: 16px;
-  padding-right: 16px;
+}
+.container {
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.hero{
   background-color: #84A178;
-  background-image: url(../img/desktop.png),
-  url(../img/много\ мороженок\ 1.png),
-  url(../img/Крапки.svg);
-  background-size:420px, 225px,1200px;
+  background-image: url(../img/много\ мороженок\ 1.png), url(../img/desktop.png), url(../img/Крапки.svg);
   background-repeat: no-repeat;
+  background-position: left 16px bottom 65px, right 92px bottom 0px, left 0 bottom 0;
+  height: 664px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-header{
   display: flex;
@@ -183,3 +189,164 @@ line-height: normal;
   color: #0A8817;
 }
  
+.dots{
+  
+  width: 1200px;
+  height: 383px;
+  left: 0;
+  right: 5px;
+}
+.icecream{
+  display:flex;
+  justify-content: space-between;
+}
+.cafe{
+  display: flex;
+  justify-content: flex-end;
+  font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 0.04em;
+    color: #131313;
+}
+.filies{
+  display: flex;
+    justify-content: flex-end;
+  font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #FCFCFC;
+}
+.Indulge{
+  display: flex;
+}
+.scoop{
+  display: block;
+  position: relative;
+  left: 245px;
+  top: 120px;
+  width: 200px;
+  height: 80px;
+  font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fffffF;
+}
+.arrow{
+  margin-top: 24px;
+  width: 40px;
+  height: 16px;
+}  
+
+.product{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(../img/Мороженое\ фон.png);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+.natural{
+  margin-right: auto;
+  margin-left: auto;
+  width: 329px;
+  font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+    
+}
+.products{
+  font-family: Seymour One;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #131313;
+   
+}
+
+.offers{
+  display:flex;
+}
+.item-offers{
+ 
+  /* width: 370px;
+  height: 719px;
+  flex-basis: calc(100% / 3 - 29px); */
+  
+}
+.item-offers:not(:last-child){
+  margin-right: 29px;
+}
+.card-sumb{
+  position: relative;
+  left: 34px;
+  top: 130px;
+  width: 302px;
+  height: 318px;
+  background-color: #9CBE8FB2;
+  overflow:hidden;
+  border-radius: 50%;
+  box-shadow: 0px 8px 30px 0px #0A881740;
+  object-fit: contain;
+  
+}
+.card-img{
+  width: 302px;
+  height: 302px;
+}
+.card-description{
+  width: 370px;
+  padding: 165px 63px 60px 61px;
+  background-color: #AEC6A5;
+  border-radius: 24px;
+  box-shadow: 0px 8px 30px 0px #D414431A;
+
+}
+.card-description::after{
+  content:"" ;
+  display: block;
+  /* position: relative; */
+  margin-left: auto;
+  margin-right: auto;
+  left: 100px;
+  width: 40px;
+  height: 16px;
+  background-image: url(../img/Arrow\ black.png);
+}
+.card-title{
+  font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+    text-transform:uppercase;
+    margin-bottom: 66px;
+}
+.card-text{
+  width: 246px;
+  height: 142px;
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 50px;
+    
+}
