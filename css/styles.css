@@ -355,4 +355,26 @@ line-height: normal;
 
 .tradition{
   background-color: #84A178;
+  padding-top: 60px;
+}
+.title-tradition{
+  width: 481px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FCFCFC;
+    margin-right: auto;
+    margin-left: auto;
+}
+.how{
+  font-family: Seymour One;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #FCFCFC;
 }
