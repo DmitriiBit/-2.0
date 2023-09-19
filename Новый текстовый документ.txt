@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Seymour+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <!-- hero header -->
+    <header>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-header">
+                    <nav class="main-nav">
+                        <a href="./index.html"><img class="logo" src="./img/Logo.png" alt=""></a>
+                        <ul class="site-navigation">
+                            <li class="item-nav"><a href="./index.html" class="site-nav">Home </a></li>
+                            <li class="item-nav"><a href="" class="site-nav ">How it’s made? </a></li>
+                            <li class="item-nav"><a href="" class="site-nav">Our products </a></li>
+                            <li class="item-nav"><a href="" class="site-nav">Contact </a></li>
+                
+                        </ul>
+                    </nav>
+                
+                    <button class="button-order">Buy now</button>
+                </div>
+                <div class="icecream">
+                    <div>
+                        <h1 class="made">ice cream made with passion</h1>
+                        <button class="button-product">Products</button>
+                        <button class="button-how">How it’s made?</button>
+
+                    </div>
+                    
+                    <ul >
+                        <li> <span class="cafe">51</span> <span class="filies">cafes</span> </li>
+                        <li> <span class="cafe">23</span> <span class="filies"> food trucks</span> </li>
+                    </ul>
+                </div>
+                <div class="scoop">
+                  <p >Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable
+                    experience!</p>
+                    <img class="arrow" src="./img/Arrow.png" alt="">
+                </div>
+               
+            </div>
+
+        </section>
+    </header>
+        
+        <!-- products -->
+        <section class="product">
+            <div class="container">
+            <h2 class="natural">100% natural <span class="products">products</span> </h2>
+
+            <ul class="offers">
+                <li class="item-offers">
+                    <div>
+                      <div class="card-sumb">
+                        <img class="card-img" src="./img/kelsey-curtis-G5ZenftPPOA-unsplash 2.svg" alt="">
+
+                      </div>
+                      <div class="card-description">
+                        <h3 class="card-title">ice cream</h3>
+                        <p class="card-text">Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer
+                        </p>
+                      </div>
+                    </div>
+                   
+                </li>
+                <li class="item-offers">
+                    <div>
+
+                    
+                      <div class="card-sumb">
+                        <img class="card-img" src="./img/pariwat-pannium-0_qbeF_0zn8-unsplash 1.svg" alt="">
+                    
+                      </div>
+                      <div class="card-description">
+                        <h3 class="card-title">ice coffee</h3>
+                        <p class="card-text">Fragrant invigorating drink created from 100% natural ingredients without the use of
+                            preservatives and flavor enhancers
+                        </p>
+                      </div>
+                    </div>
+                </li>
+                <li class="item-offers">
+                    <div>
+                        <div class="card-sumb">
+                            <img class="card-img" src="./img/victor-rutka-4FujjkcI40g-unsplash 1.svg" alt="">
+                        
+                        </div>
+                        <div class="card-description">
+                            <h3 class="card-title">milkshakes</h3>
+                            <p class="card-text">Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other
+                                sweets of your choice</p>
+                        
+                        </div>
+
+                    </div>
+                    
+                </li>
+            </ul>
+
+            </div>
+
+        </section>
+
+        <!-- tradition and love  -->
+    <section class="tradition">
+        <div class="container">
+            <h2 class="title-tradition">tradition and love <span class="how">how it’s made?</span></h2>
+        </div>
+    </section>
+
+</body>
+</html>
