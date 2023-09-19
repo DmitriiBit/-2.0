@@ -112,12 +112,16 @@ line-height: normal;
 }
 
 .button-order{
+  display: flex;
+  justify-content: center;
+    align-items: center;
   width: 152px;
   height: 42px;
   border: 0;
   border-radius: 10px;
   background-color: #F8D24E;
   color: #000;
+  fill: #000;
   text-align: center;
   font-family: Montserrat;
   font-size: 14px;
@@ -126,12 +130,27 @@ line-height: normal;
   line-height: normal;
   cursor: pointer;
 }
+.arrow-right{
+  display: block;
+  border: 1px solid #0000;
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+  
+  
+}
+
 .button-order:focus{
   background-color: #0A8817;
   color: #fffffF;
+  fill: #fffffF;
 }
 .button-order:hover{
   background-color: #0A8817;
+}
+.button-order:disabled{
+  background-color: #ABABAB;
+  color: #000;
 }
 
 .made{
@@ -148,12 +167,14 @@ line-height: normal;
   text-transform: uppercase;
 }
 .button-product{
+  display: flex;
+    justify-content: center;
+    align-items: center;
   cursor: pointer;
   width: 134px;
   height: 42px;
   margin-right: 12px;
   border-radius: 10px;
-  border-color: #F8D24E;
   color: #131313;
   text-align: center;
   font-family: Montserrat;
@@ -161,15 +182,31 @@ line-height: normal;
   font-style: normal;
   font-weight: 600;
   line-height: 18px; 
+  border: 2px solid #F8D24E;
 }
 .button-product:hover{
   border-color: #0A8817;
 }
 .button-product:focus{
+  
+  border-color: #0A8817;
+  color: #FCFCFC;
+  background-color: #84A178;
+}
+.button-product:disabled{
   border-color: #ABABAB;
 }
 
+.list-item{
+  display: flex;
+}
+.item-link:first-child{
+  margin-right: 12px;
+}
 .button-how{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   width: 134px;
   height: 42px;
@@ -184,9 +221,14 @@ line-height: normal;
   border: none;
   background-color: #84A178;
 }
-.button-how:hover,
-.button-how:focus{
+.button-how:hover{
   color: #0A8817;
+}
+.button-how:focus{
+  color: #FCFCFC;
+}
+.button-how:disabled{
+  color: #ABABAB;
 }
  
 .dots{
@@ -247,9 +289,8 @@ line-height: normal;
 .product{
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url(../img/Мороженое\ фон.png);
+  background-image: url(../img/background/Backgroud_desktop.png);
   background-size: cover;
-  
   background-repeat: no-repeat;
 }
 .natural{
@@ -280,13 +321,7 @@ line-height: normal;
 .offers{
   display:flex;
 }
-.item-offers{
- 
-  /* width: 370px;
-  height: 719px;
-  flex-basis: calc(100% / 3 - 29px); */
-  
-}
+
 .item-offers:not(:last-child){
   margin-right: 29px;
 }
@@ -296,14 +331,15 @@ line-height: normal;
   top: 130px;
   width: 302px;
   height: 318px;
-  background-color: #9CBE8FB2;
+  background-color: #AEC6A5;
+  background-size: cover;
   overflow:hidden;
   border-radius: 50%;
   box-shadow: 0px 8px 30px 0px #0A881740;
-  object-fit: contain;
-  
+   
 }
 .card-img{
+  
   width: 302px;
   height: 302px;
 }
@@ -356,6 +392,7 @@ line-height: normal;
 .tradition{
   background-color: #84A178;
   padding-top: 60px;
+  padding-bottom: 178px;
 }
 .title-tradition{
   width: 481px;
@@ -376,5 +413,118 @@ line-height: normal;
     font-weight: 400;
     line-height: 45px;
     letter-spacing: 0.06em;
+    color: #FCFCFC;
+}
+.cow{
+display: flex;
+
+}
+.card-tradition{
+  margin-top: 82px;
+  width: 491px;
+  height: 529px;
+  background-color: #F8D24E;
+  background-image: url(../img/cow.png);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: 0px 40px;
+}
+
+.list-tradition{
+  width: 463px;
+  margin-left: 109px;
+  margin-top: 172px;
+}
+.item-tradition:not(:last-child){
+  margin-bottom: 8px;
+}
+
+.button-tradition{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  width: 164px;
+  height: 42px;
+  background-color: #F8D24E;
+  font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    margin-top: 54px;
+    margin-left: 109px;
+    fill: #000;
+    cursor: pointer;
+}
+
+.button-tradition:focus {
+  background-color: #0A8817;
+  color: #fffffF;
+  fill: #fffffF;
+}
+
+.button-tradition:hover {
+  background-color: #0A8817;
+}
+
+.button-tradition:disabled {
+  background-color: #ABABAB;
+  color: #000;
+}
+
+
+/* advantages */
+
+.list-advantages{
+  margin-top: 60px;
+  display: flex;
+}
+.item-advantages{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 368px;
+  height: 225px;
+}
+
+.advantages{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  background-color: #F8D24E;
+  fill: #131313;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+
+.advantages-svg{
+  width: 36px;
+  height: 36px;
+  
+}
+.title-advantages{
+  font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FCFCFC;
+    margin-bottom: 12px;
+}
+.text-advantages{
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #FCFCFC;
 }

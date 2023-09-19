@@ -21,20 +21,32 @@
                         <a href="./index.html"><img class="logo" src="./img/Logo.png" alt=""></a>
                         <ul class="site-navigation">
                             <li class="item-nav"><a href="./index.html" class="site-nav">Home </a></li>
-                            <li class="item-nav"><a href="" class="site-nav ">How it’s made? </a></li>
-                            <li class="item-nav"><a href="" class="site-nav">Our products </a></li>
+                            <li class="item-nav"><a href="#How" class="site-nav ">How it’s made? </a></li>
+                            <li class="item-nav"><a href="#Products" class="site-nav">Our products </a></li>
                             <li class="item-nav"><a href="" class="site-nav">Contact </a></li>
                 
                         </ul>
                     </nav>
                 
-                    <button class="button-order">Buy now</button>
+                    <button class="button-order">Buy now
+                        <svg class="arrow-right">
+                            <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
+                        </svg>
+                        
+                    </button>
+                    
                 </div>
                 <div class="icecream">
                     <div>
                         <h1 class="made">ice cream made with passion</h1>
-                        <button class="button-product">Products</button>
-                        <button class="button-how">How it’s made?</button>
+                        <ul class="list-item">
+                            <li class="item-link"><a href="#Products" class="button-product">Products</a></li>
+                            <li class="item-link"><a href="#How" class="button-how">How it’s made?</a></li>
+                        </ul>
+                       
+                        
+                        
+                        
 
                     </div>
                     
@@ -57,13 +69,13 @@
         <!-- products -->
         <section class="product">
             <div class="container">
-            <h2 class="natural">100% natural <span class="products">products</span> </h2>
+            <h2 id="Products" class="natural">100% natural <span class="products">products</span> </h2>
 
             <ul class="offers">
                 <li class="item-offers">
                     <div>
                       <div class="card-sumb">
-                        <img class="card-img" src="./img/kelsey-curtis-G5ZenftPPOA-unsplash 2.svg" alt="">
+                        <img class="card-img" src="./img/kelsey-curtis-G5ZenftPPOA-unsplash 2.png" alt="ice-cream">
 
                       </div>
                       <div class="card-description">
@@ -79,7 +91,7 @@
 
                     
                       <div class="card-sumb">
-                        <img class="card-img" src="./img/pariwat-pannium-0_qbeF_0zn8-unsplash 1.svg" alt="">
+                        <img class="card-img" src="./img/pariwat-pannium-0_qbeF_0zn8-unsplash 1.png" alt="ice-cofffee">
                     
                       </div>
                       <div class="card-description">
@@ -93,7 +105,7 @@
                 <li class="item-offers">
                     <div>
                         <div class="card-sumb">
-                            <img class="card-img" src="./img/victor-rutka-4FujjkcI40g-unsplash 1.svg" alt="">
+                            <img class="card-img" src="./img/victor-rutka-4FujjkcI40g-unsplash 1.png" alt="milkshakes">
                         
                         </div>
                         <div class="card-description">
@@ -115,8 +127,77 @@
         <!-- tradition and love  -->
     <section class="tradition">
         <div class="container">
-            <h2 class="title-tradition">tradition and love <span class="how">how it’s made?</span></h2>
+            <h2 id="How" class="title-tradition">tradition and love <span class="how">how it’s made?</span></h2>
+
+            <div class="cow">
+                <div class="card-tradition">
+                </div>
+                <div>
+                    <ul class="list-tradition">
+                        <li class="item-tradition">Ice is a place where you will become not only a little happier, but also healthier.
+                            Health is the main value for us, and
+                            we follow it when creating our handmade desserts.</li>
+                        <li class="item-tradition">We use traditional recipes and 100% natural ingredients. Our products are so natural
+                            that they can be given to children
+                            from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23
+                            milkshakes.
+                        </li>
+                        <li class="item-tradition">This is enough to choose ice cream and coffee for any mood!</li>
+                    </ul>
+                    <button type="button" class="button-tradition">Read more
+                        <svg class="arrow-right">
+                            <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
+                        </svg>
+                    </button>
+
+                </div>
+              
+            </div>
+
+            <!-- advantages -->
+
+            <ul class="list-advantages">
+                <li class="item-advantages">
+                    <div class="advantages">
+                        <svg class="advantages-svg">
+                            <use href="./img/3 екран/symbol-defs.svg#icon-cow-1"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="title-advantages">721</h3>
+                        <p class="text-advantages">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </div>
+                </li>
+
+                <li class="item-advantages">
+                    <div class="advantages">
+                        <svg class="advantages-svg">
+                            <use href="./img/3 екран/symbol-defs.svg#icon-weight"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="title-advantages">16</h3>
+                        <p class="text-advantages">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </div>
+                </li>
+
+                <li class="item-advantages">
+                    <div class="advantages">
+                        <svg class="advantages-svg">
+                            <use href="./img/3 екран/symbol-defs.svg#icon-ice"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="title-advantages">84</h3>
+                        <p class="text-advantages">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    </div>
+                </li>
+            </ul>
+            
         </div>
+        
+          
+        
     </section>
 
 </body>
