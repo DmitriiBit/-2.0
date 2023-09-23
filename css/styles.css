@@ -292,6 +292,7 @@ line-height: normal;
   background-image: url(../img/Мороженое\ фон.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 1051px;
 }
 .natural{
   margin-right: auto;
@@ -320,15 +321,21 @@ line-height: normal;
 
 .offers{
   display:flex;
+  position: relative;
+  top: 315px;
+}
+
+.item-offers{
+  position: relative;
 }
 
 .item-offers:not(:last-child){
   margin-right: 29px;
 }
 .card-sumb{
-  position: relative;
+  position: absolute;
   left: 34px;
-  top: 130px;
+  top: -185px;
   width: 302px;
   height: 318px;
   background-color: #AEC6A5;
@@ -337,6 +344,26 @@ line-height: normal;
   border-radius: 50%;
   box-shadow: 0px 8px 30px 0px #0A881740;
    
+}
+.card-sumb::after{
+ content: ""; 
+ display: block;
+ height: 302px;
+ width: 302px;
+ position: absolute;
+ bottom: 16px;
+
+}
+.icecream::after{
+  background-image: url(../img/kelsey-curtis-G5ZenftPPOA-unsplash\ 2.svg);
+  
+}
+.coffee::after{
+  background-image: url(../img/pariwat-pannium-0_qbeF_0zn8-unsplash\ 1.png);
+}
+
+.milkshakes::after{
+  background-image: url(../img/victor-rutka-4FujjkcI40g-unsplash\ 1.png);
 }
 .card-img{
   
@@ -626,10 +653,15 @@ margin-right: auto;
 margin-left: auto;
 }
 
+.container-footer{
+  padding: 16px;
+  height: 862px;
+  position: relative;
+}
 .list-adresses{
   display: flex;
-  position: relative;
-  bottom: 128px;
+  position: absolute;
+  top: -148px;
   
 }
 
@@ -640,7 +672,7 @@ margin-left: auto;
  background-color: #FFFFFF;
  box-shadow: 0px 8px 30px 0px #D414431A;
  display: block;
- padding: 40px 66px 40px 40px;
+ padding: 40px;
 }
 .item-adresses:not(:last-child){
   margin-right: 32px;
@@ -672,6 +704,25 @@ margin-left: auto;
     color: #131313;
     margin-bottom: 32px;
 }
+
+.title-type-food{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #F8D24E;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 32px;
+}
+
 .name-city{
   font-family: Montserrat;
     font-size: 16px;
@@ -719,4 +770,32 @@ margin-left: auto;
     letter-spacing: 0em;
     text-align: left;
     color: #131313;
+}
+
+.list-locations{
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform:translate(-50%) ;
+  top: 458px;
+
+}
+.link-location:not(:last-child){
+  margin-right: 16px;
+}
+
+
+.location{
+  width: 196px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.franchise{
+  width: 196px;
+  height: 42px;
+  border-radius: 10px;
+  border: 2px solid #F8D24E;
 }
