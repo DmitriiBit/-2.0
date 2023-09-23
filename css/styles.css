@@ -61,7 +61,7 @@ section{
 
 .hero{
   background-color: #84A178;
-  background-image: url(../img/много\ мороженок\ 1.png), url(../img/desktop.png), url(../img/Крапки.svg);
+  background-image: url(../img/много\ мороженок\ 1.png), url(../img/desktop.png), url(../img/Крапки.png);
   background-repeat: no-repeat;
   background-position: left 16px bottom 65px, right 92px bottom 0px, left 0 bottom 0;
   height: 664px;
@@ -289,7 +289,7 @@ line-height: normal;
 .product{
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url(../img/Мороженое\ фон.png3333);
+  background-image: url(../img/Мороженое\ фон.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
