@@ -1,0 +1,68 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M580.754 512l404.187-404.261c7.172-8.439 11.535-19.462 11.535-31.503 0-26.944-21.842-48.786-48.786-48.786-12.041 0-23.063 4.362-31.572 11.592l0.070-0.058-404.187 404.261-404.261-404.699c-8.996-9.858-21.9-16.020-36.242-16.020-27.065 0-49.006 21.941-49.006 49.006 0 14.324 6.146 27.213 15.944 36.173l0.037 0.034 404.773 404.261-404.773 404.261c-10.601 9.007-17.284 22.349-17.284 37.252 0 26.944 21.842 48.786 48.786 48.786 14.903 0 28.245-6.682 37.194-17.214l0.058-0.070 404.773-404.261 404.261 404.261c8.439 7.172 19.462 11.535 31.503 11.535 26.944 0 48.786-21.842 48.786-48.786 0-12.041-4.362-23.063-11.592-31.572l0.058 0.070-404.261-404.261z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Vector (1)"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 53,
+        "id": 0,
+        "name": "close",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 10,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": false,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "autoHost": true
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "YmY2OGI4MzYyZCMxNjk1ODA1OTExI3pXMXRYTW9qRW9WV2gxa1IwQkdlUDdYV280WWQ5b3dBZ0VtRjVWWGZNZVVZ"
+    }
+  }
+}

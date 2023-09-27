@@ -129,6 +129,8 @@ line-height: normal;
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .arrow-right{
   display: block;
@@ -183,6 +185,8 @@ line-height: normal;
   font-weight: 600;
   line-height: 18px; 
   border: 2px solid #F8D24E;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-product:hover{
   border-color: #0A8817;
@@ -220,6 +224,8 @@ line-height: normal;
   text-decoration: underline ;
   border: none;
   background-color: #84A178;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-how:hover{
   color: #0A8817;
@@ -501,6 +507,8 @@ display: flex;
     margin-left: 109px;
     fill: #000;
     cursor: pointer;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-tradition:focus {
@@ -695,6 +703,19 @@ margin-left: auto;
   height: 862px;
   position: relative;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .list-adresses{
   display: flex;
   position: absolute;
@@ -838,6 +859,8 @@ margin-left: auto;
   font-style: normal;
   font-weight: 600;
   line-height: 18px;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -870,6 +893,8 @@ margin-left: auto;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .franchise:hover {
@@ -959,6 +984,8 @@ margin-left: auto;
   border: none;
   background-color: #F8D24E;
   fill: #84A178;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -972,7 +999,7 @@ margin-left: auto;
   height: 20px;
 }
 
-.footer-label {
+.footer-ph{
   color: #131313;
   font-family: Montserrat;
   font-size: 16px;
@@ -1004,4 +1031,330 @@ margin-left: auto;
   font-weight: 700;
   line-height: 186%;
   letter-spacing: 0.24px;
+}
+
+/* MODAL */
+
+/* buy */
+
+.modal-buy{
+  display: block;
+  position: relative;
+  width: 568px;
+  height: 644px;
+  padding: 32px 54px;
+  background-color:#FCFCFC;
+  border: 2px solid #F8D24E;
+  border-radius: 10px;
+}
+.buy{
+  font-family: Seymour One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 40px;
+    
+}
+.buy-list{
+  display: flex;
+}
+.buy-item{
+  display: block;
+
+}
+.buy-item:not(:last-child){
+  margin-right: 32px;
+}
+
+.buy-description {
+  position: relative;
+  top: 66px;
+  width: 132px;
+  height: 135px;
+  border-radius: 15px;
+  border: 2px solid #96AF8C;
+  
+}
+.buy-sumb{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 59px;
+  width: 132px;
+  height: 139px;
+  background-color: #9CBE8FB2;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0px 8px 30px 0px #0A881740;
+  background-repeat: no-repeat;
+  
+}
+.buy-sumb::after{
+  content: "";
+  display: block;
+  width: 132px;
+  height: 132px;
+  position: absolute;
+  bottom: 7px;
+  
+}
+.cream{
+  background-image: url(../img/kelsey-curtis-G5ZenftPPOA-unsplash\ 2\ \(1\).png);
+}
+.cofe{
+  background-image: url(../img/ice-coffee.png);
+}
+.milk{
+  background-image: url(../img/victor-rutka-4FujjkcI40g-unsplash\ 1\ \(1\).png);
+}
+
+.buy-title{
+  display: block;
+  width: 100px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+    text-transform: uppercase;
+}
+
+.form-fild{
+  position: relative;
+  margin-bottom: 14px;
+  
+}
+
+.form-order{
+  display: flex;
+  width: 368px;
+  flex-direction: column;
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translate(-50%);
+}
+label {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  margin: 0;
+  display: flex;
+}
+.label-text{
+  
+  font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #131313;
+    
+}
+
+.form-input{
+  width: 100%;
+  padding-left: 16px;
+  border: 1px solid #84A178;
+    border-radius: 10px;
+    height: 42px;
+    outline: 0;
+    outline-offset: 0;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input:focus + .label-order,
+.form-input:not(:placeholder-shown) + .label-order{
+  transform: translateY(-27px);
+}
+
+textarea{
+  resize: none;
+  width: 100%;
+  margin: 0;
+  border: 1px solid #84A178;
+  border-radius: 10px;
+  height: 84px;
+  outline: 0;
+  outline-offset: 0;
+  
+}
+.textarea{
+  margin-bottom: 32px;
+}
+.terea:focus + .label-order,
+.terea:not(:placeholder-shown) + .label-order{
+ transform: translateY(-27px);
+}
+.terea{
+  height: 84px;
+  appearance: none;
+  padding-left: 16px;  
+  padding-top: 11px;
+}
+.sub{
+  width: 152px;
+  height: 42px;
+  background-color: #F8D24E;
+  border: none;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sub:hover{
+  background-color: #0A8817;
+}
+.sub:focus{
+  background-color: #0A8817;
+  color: #fffffF;
+}
+.sub:disabled{
+  background-color: #ABABAB;
+}
+.button-close{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  fill: #000000;
+  padding: 0;
+  border: 0;
+  background-color: #FCFCFC;
+  cursor: pointer;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-close:hover, .button-close:focus{
+  fill: #0A8817;
+}
+.close{
+  width: 13px;
+  height: 13px;
+}
+
+/* modal-chololate */
+
+.modal-chololate{
+  position: relative;
+  width: 568px;
+  height: 996px;
+  background-color: #FCFCFC;
+  border: 2px solid #F8D24E;
+  border-radius: 10px;
+  padding: 32px 40px;
+}
+.choko{
+  font-family: Seymour One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #131313;
+}
+.choko-creame{
+  position: relative;
+  left: 50%;
+  top: 52px;
+  transform: translate(-50%);
+ background-color: #0A881740;
+  display: block;
+  width: 132px;
+  height: 139px;
+  box-shadow:0px 8px 30px 0px #0A881740 ;
+  border-radius: 50%;
+  
+}
+.choko-creame::after{
+   content: "";
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7px;
+    background-image: url(../img/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+/* elements */
+.elements-list{
+  position: relative;
+  top: 215px;
+  display: flex;
+
+}
+.elements-item{
+
+}
+.elements-description{
+  position: absolute;
+  width: 65px;
+  height: 90px;
+  border: 2px solid #9CBE8F;
+  border-radius: 40px;
+}
+.elements-sumb{
+ position: absolute;
+ top: 0;
+ left: 50%;
+ transform: translate(-50%);
+ border: none;
+ border-radius: 50%;
+width: 53px;
+height: 53px;
+box-shadow: 0px 6px 20px 0px #0A881740;
+background-color: #9CBE8F;
+
+}
+.el-text{
+  position: absolute;
+  top: 12px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #131313;
+}
+.elements-text{
+  position: absolute;
+  bottom: 15px;
+  left: 19px;
+  font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+   color: #131313;
 }
