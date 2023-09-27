@@ -54,8 +54,8 @@ section{
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 
 }
 
@@ -280,11 +280,22 @@ line-height: normal;
     text-align: left;
     color: #fffffF;
 }
-.arrow{
+.more-white{
+  display: flex;
+  justify-content: center;
+  background-color: #84A178;
+  border: none;
   margin-top: 24px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.arrow-white{
+  fill: #fffffF;
   width: 40px;
   height: 16px;
-}  
+}
+
 
 .product{
   padding-top: 60px;
@@ -365,11 +376,7 @@ line-height: normal;
 .milkshakes::after{
   background-image: url(../img/victor-rutka-4FujjkcI40g-unsplash\ 1.png);
 }
-.card-img{
-  
-  width: 302px;
-  height: 302px;
-}
+
 .card-description{
   width: 370px;
   padding: 165px 63px 60px 61px;
@@ -378,17 +385,8 @@ line-height: normal;
   box-shadow: 0px 8px 30px 0px #D414431A;
 
 }
-.card-description::after{
-  content:"" ;
-  display: block;
-  /* position: relative; */
-  margin-left: auto;
-  margin-right: auto;
-  left: 100px;
-  width: 40px;
-  height: 16px;
-  background-image: url(../img/Arrow\ black.png);
-}
+
+ 
 .card-title{
   font-family: Montserrat;
     font-size: 30px;
@@ -412,6 +410,23 @@ line-height: normal;
     color: #131313;
     margin-bottom: 50px;
     
+}
+
+.more{
+  display: flex;
+  border: none;
+  background-color: #AEC6A5;
+  width: 50px;
+  height: 26px;
+  fill: #000;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.more-arrow {
+  display: block;
+  width: 40px;
+  height: 16px;
 }
 
 /* tradition */
@@ -451,7 +466,7 @@ display: flex;
   width: 491px;
   height: 529px;
   background-color: #F8D24E;
-  background-image: url(../img/cow.png);
+  background-image: url(../img/cow.png.png);
   background-repeat: no-repeat;
   border-radius: 50%;
   background-position: 0px 40px;
@@ -506,6 +521,9 @@ display: flex;
 
 /* advantages */
 
+.advantages-title{
+  visibility: hidden;
+}
 .list-advantages{
   margin-top: 60px;
   display: flex;
@@ -533,11 +551,28 @@ display: flex;
   margin-bottom: 40px;
 }
 
-.advantages-svg{
+.weigth::after{
+
+    content: "";
+    background-image: url(../img/weight.png);
+    width: 36px;
+    height: 36px;
+
+}
+.cow-mini::after {
+  content: "";
+  background-image: url(../img/cow-mini.png);
   width: 36px;
   height: 36px;
-  
+
 }
+.ice::after{
+content: "";
+  background-image: url(../img/ice\ crema.png);
+  width: 36px;
+  height: 36px;
+}
+
 .title-advantages{
   font-family: Montserrat;
     font-size: 58px;
@@ -558,15 +593,17 @@ display: flex;
     color: #FCFCFC;
 }
 
-                                    /* reviews */
+/* reviews */
 
 .reviews{
+  position: relative;
   background-image: url(../img/Мороженое\ фон.png);
   background-size: cover;
   padding-bottom: 228px;
+  height: 1053px;
 
 }
-.reviews-img{
+.reviews-slide{
   width: 1013px;
   height: 422px;
   border-radius: 22px;
@@ -575,7 +612,7 @@ display: flex;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  bottom: 88px;
+  bottom: 98px;
   
 }
 
@@ -785,17 +822,186 @@ margin-left: auto;
 }
 
 
-.location{
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 196px;
   height: 42px;
   border: none;
   border-radius: 10px;
+  background-color: #F8D24E;
+  color: #131313;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
 
 }
 
-.franchise{
+.location:hover {
+  background-color: #0A8817;
+
+}
+
+.location:focus {
+  color: #FFFFFF;
+  fill: #fffffF;
+}
+
+.location:disabled {
+  background-color: #ABABAB;
+}
+
+.franchise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 196px;
   height: 42px;
   border-radius: 10px;
   border: 2px solid #F8D24E;
+  background-color: #84A178;
+  font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.franchise:hover {
+  border-color: #0A8817;
+}
+
+.franchise:focus {
+  color: #FFFFFF;
+  fill: #fffffF;
+}
+
+.franchise:disabled {
+  border-color: #ABABAB;
+}
+
+.footer-home {
+  width: 1168px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 104px;
+}
+
+.footer-home::after {
+  position: absolute;
+  bottom: -60px;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #E1E1E1;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 504px;
+  color: #FCFCFC;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.footer-span {
+  color: #FCFCFC;
+  font-family: Montserrat;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.48px;
+  text-transform: uppercase;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footr-item {
+  width: 34px;
+  height: 34px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50px;
+  border: none;
+  background-color: #F8D24E;
+  fill: #84A178;
+}
+
+.social-link:hover,
+.social-link:focus {
+  fill: #FCFCFC;
+
+}
+
+.footer-social {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-label {
+  color: #131313;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 0.32px;
+}
+
+.footer-phone {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 0.32px;
+}
+
+.footer-p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 12px;
+  color: #7A7A7A;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 0.24px;
 }

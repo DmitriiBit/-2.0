@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Seymour+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/> 
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
@@ -43,11 +44,7 @@
                             <li class="item-link"><a href="#Products" class="button-product">Products</a></li>
                             <li class="item-link"><a href="#How" class="button-how">How it’s made?</a></li>
                         </ul>
-                       
                         
-                        
-                        
-
                     </div>
                     
                     <ul >
@@ -58,7 +55,10 @@
                 <div class="scoop">
                   <p >Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable
                     experience!</p>
-                    <img class="arrow" src="./img/Arrow.png" alt="">
+                    <button type="button" class="more-white">
+                             <svg class="arrow-white"><use href="./img/symbol-defs.svg#icon-Arrow"></use>
+                        </svg>
+                        </button>
                 </div>
                
             </div>
@@ -75,13 +75,17 @@
                 <li class="item-offers">
                     <div>
                       <div class="card-sumb icecream">
-
                       </div>
                       <div class="card-description">
                         <h3 class="card-title">ice cream</h3>
                         <p class="card-text">Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer
                         </p>
+                        <button type="button" class="more">
+                             <svg class="more-arrow"><use href="./img/symbol-defs.svg#icon-Arrow"></use>
+                        </svg>
+                        </button>
                       </div>
+                      
                     </div>
                    
                 </li>
@@ -97,6 +101,10 @@
                         <p class="card-text">Fragrant invigorating drink created from 100% natural ingredients without the use of
                             preservatives and flavor enhancers
                         </p>
+                         <button type="button" class="more">
+                             <svg class="more-arrow"><use href="./img/symbol-defs.svg#icon-Arrow"></use>
+                        </svg>
+                        </button>
                       </div>
                     </div>
                 </li>
@@ -109,6 +117,10 @@
                             <h3 class="card-title">milkshakes</h3>
                             <p class="card-text">Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other
                                 sweets of your choice</p>
+                                 <button type="button" class="more">
+                             <svg class="more-arrow"><use href="./img/symbol-defs.svg#icon-Arrow"></use>
+                        </svg>
+                        </button>
                         
                         </div>
 
@@ -152,13 +164,13 @@
             </div>
 
             <!-- advantages -->
+            <h2 class="advantages-title">Advantages</h2>
 
             <ul class="list-advantages">
+
                 <li class="item-advantages">
-                    <div class="advantages">
-                        <svg class="advantages-svg">
-                            <use href="./img/3 екран/symbol-defs.svg#icon-cow-1"></use>
-                        </svg>
+                    <div class="advantages cow-mini">
+                       
                     </div>
                     <div>
                         <h3 class="title-advantages">721</h3>
@@ -167,10 +179,8 @@
                 </li>
 
                 <li class="item-advantages">
-                    <div class="advantages">
-                        <svg class="advantages-svg">
-                            <use href="./img/3 екран/symbol-defs.svg#icon-weight"></use>
-                        </svg>
+                    <div class="advantages weigth">
+                        
                     </div>
                     <div>
                         <h3 class="title-advantages">16</h3>
@@ -179,10 +189,8 @@
                 </li>
 
                 <li class="item-advantages">
-                    <div class="advantages">
-                        <svg class="advantages-svg">
-                            <use href="./img/3 екран/symbol-defs.svg#icon-ice"></use>
-                        </svg>
+                    <div class="advantages ice">
+                       
                     </div>
                     <div>
                         <h3 class="title-advantages">84</h3>
@@ -200,33 +208,50 @@
 
     <section class="reviews">
         <div class="container">
-            <div class="reviews-img"></div>
-            <div class="reviews-card">
-                <div class="reviews-foto"></div>
+            <div class="reviews-slide"></div>
+             <div class="reviews-foto emily"></div>
                 <div class="reviews-text">
                     <p>I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In addition, you have beautiful
                      serving, cozy atmosphere and polite staff.
                     </p>
                 </div>
                 <h3 class="reviews-name">Emily, Los Angeles</h3>
-                <ul class="list-reviews">
-                    <li class="item-reviews"><a href="" >
-                        <svg class="svg-reviews">
-                            <use href="./img/symbol-defs.svg#icon-Ellipse-7"></use>
-                        </svg>
-                    </a></li>
-                    <li class="item-reviews"><a href="">
-                            <svg class="svg-reviews">
-                                <use href="./img/symbol-defs.svg#icon-Ellipse-7"></use>
-                            </svg>
-                        </a></li>
-                        <li class="item-reviews"><a href="">
-                                <svg class="svg-reviews">
-                                    <use href="./img/symbol-defs.svg#icon-Ellipse-7"></use>
-                                </svg>
-                            </a></li>
-                </ul>
-            </div>
+                
+                    </div>
+            
+            <!-- <div class="reviews swiper-container">
+                
+                <div class="swiper-wrapper">
+                    <div class="reviews-card__slide swiper-slide">
+                <div class="reviews-foto emily"></div>
+                <div class="reviews-text">
+                    <p>I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In addition, you have beautiful
+                     serving, cozy atmosphere and polite staff.
+                    </p>
+                </div>
+                <h3 class="reviews-name">Emily, Los Angeles</h3>
+                
+                    </div>
+                    <div class="reviews-card__slide swiper-slide">
+                <div class="reviews-foto bryan"></div>
+                <div class="reviews-text">
+                    <p>Every day we come to you with friends after classes in college. We love your ice cream and casual atmosphere!</p>
+                </div>
+                <h3 class="reviews-name">Bryan, New-York</h3>
+                
+                    </div>
+                    <div class="reviews-card__slide swiper-slide">
+                <div class="reviews-foto diana"></div>
+                <div class="reviews-text">
+                    <p>Ice cream is my passion! I love your chocolate hazelnut ice cream! And I really like the excellent service - always served politely and quickly!
+                    </p>
+                </div>
+                <h3 class="reviews-name">Diana, Chicago</h3>
+                
+                    </div>
+                    
+                </div>
+            </div> -->
 
         </div>
     </section>
@@ -314,18 +339,56 @@
         
         </ul>
 
-        <ul class="list-locations">
+            <ul class="list-locations">
             <li class="link-location">
-                <button type="button" class="location">Our Locations</button>
+                <button type="button" class="location">Our Locations 
+                    <svg class="arrow-right">
+                    <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
+                </svg></button>
             </li>
              <li class="link-location">
-                <button type="button" class="franchise">Franchise</button>
-           
+                <button type="button" class="franchise">Franchise
+                    <svg class="arrow-right">
+                        <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
+                    </svg>
+                </button>
         </ul>
+          <div class="footer-home">
+           
+            <h2 class="footer-title">homemade ice cream made <span class="footer-span">with passion</span>
+             </h2>
+            <form class="footer-form">
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="" class="social-link">
+                        <svg class="footer-social">
+                            <use href="./img/symbol-defs.svg#icon-github"></use>
+                        </svg>
+                    </a></li>
+    
+                    <li class="footer-item"><a href="" class="social-link">
+                        <svg class="footer-social">
+                            <use href="./img/symbol-defs.svg#icon-telegram"></use>
+                        </svg>
+                    </a></li>
+    
+                    <li class="footer-item"><a href="" class="social-link">
+                        <svg class="footer-social">
+                            <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                    </a></li>
+    
+                </ul>
+    
+                <label class="footer-label">Feel free to contact <a class="footer-phone" href="tel:+61(0)383766284">+61 (0) 383 766 284</a></label>
+            </form>
+           
+
+          </div>
+           <p class="footer-p">© 2022 - IceCream. All Rights Reserved. </p>
     </div>
    
    </div>                           
-   
-
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>  
+ <script src="js/scrypt.js"></script>
 </body>
 </html>
