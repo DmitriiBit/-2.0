@@ -1276,9 +1276,9 @@ textarea{
     color: #131313;
 }
 .choko-creame{
-  position: relative;
+  position: absolute;
   left: 50%;
-  top: 52px;
+  top: 84px;
   transform: translate(-50%);
  background-color: #0A881740;
   display: block;
@@ -1303,14 +1303,24 @@ textarea{
 }
 
 /* elements */
+.element{
+  position: absolute;
+    top: 247px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 320px;
+    height: 90px;
+}
 .elements-list{
-  position: relative;
-  top: 215px;
   display: flex;
-
+  
 }
 .elements-item{
-
+ width: 65px;
+ height: 90px;
+}
+.elements-item:not(:last-child){
+  margin-right: 20px;
 }
 .elements-description{
   position: absolute;
