@@ -455,7 +455,7 @@ line-height: normal;
     margin-right: auto;
     margin-left: auto;
 }
-.how{
+.howi{
   font-family: Seymour One;
     font-size: 35px;
     font-weight: 400;
@@ -1036,18 +1036,24 @@ margin-left: auto;
 /* MODAL */
 
 /* buy */
+form{
+  padding: 32px 54px;
+    background-color: #FCFCFC;
+    border: 2px solid #F8D24E;
+    border-radius: 10px;
+}
 
 .modal-buy{
   display: block;
   position: relative;
   width: 568px;
   height: 644px;
-  padding: 32px 54px;
+  /* padding: 32px 54px;
   background-color:#FCFCFC;
   border: 2px solid #F8D24E;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
-.buy{
+.modal-tytel{
   font-family: Seymour One;
     font-size: 20px;
     font-weight: 400;
@@ -1261,20 +1267,9 @@ textarea{
   position: relative;
   width: 568px;
   height: 996px;
-  background-color: #FCFCFC;
-  border: 2px solid #F8D24E;
-  border-radius: 10px;
-  padding: 32px 40px;
+  
 }
-.choko{
-  font-family: Seymour One;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #131313;
-}
+
 .choko-creame{
   position: absolute;
   left: 50%;
@@ -1432,4 +1427,31 @@ background-color: #9CBE8F;
     text-align: center;
     color: #131313;
 }
-     
+   
+
+/* how */
+
+.how{
+  position: relative;
+  display: block;
+  width: 568px;
+  height: 449px;
+}
+.video{
+  display: block;
+  width: 448px;
+  height: 205px;
+  background-image: url(../img/Vector.png),url(../img/Rectangle\ 27.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 32px;
+}
+.lorem{
+  font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #131313;
+}
