@@ -1359,7 +1359,8 @@ background-color: #9CBE8F;
 .elements-text{
   position: absolute;
   bottom: 15px;
-  left: 19px;
+  left: 50%;
+  transform: translate(-50%);
   font-family: Montserrat;
     font-size: 12px;
     font-weight: 400;
@@ -1368,3 +1369,67 @@ background-color: #9CBE8F;
     text-align: center;
    color: #131313;
 }
+
+/* Ingredients-list */
+
+.Ingred{
+  display: block;
+  position: absolute;
+  top: 385px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.Ingred-text{
+  font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.Ingredients-list{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 488px;
+  height: 205px;
+  
+}
+.Ingredients-item{
+  display: flex;
+  flex-direction: column;
+
+}
+.Ingredients-item:not(:last-child){
+  margin-bottom: 11px;
+}
+.Ingredients-box{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.Ingredients-text{
+  font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+
+}
+.Ingredients-numbers{
+  font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+}
+     
