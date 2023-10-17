@@ -1,0 +1,128 @@
+.reviews-slide {
+    width: 280px;
+    height: 130px;
+    border-radius: 8px;
+    background-image: url(../img/mobail/brooke-lark-8beTH4VkhLI-unsplash\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 32px;
+
+    @media screen and (min-width:768px) {
+            border-radius: 8px;
+            width: 704px;
+            height: 326px;
+            bottom: 144px;
+            background-image: url(../img/tablet/brooke-lark-8beTH4VkhLI-unsplash\ 2.png);
+        }
+    
+        @media screen and (min-width:1200px) {
+            width: 1013px;
+            height: 422px;
+            bottom: 98px;
+            border-radius: 18px;
+            background-image: url(../img/brooke-lark-8beTH4VkhLI-unsplash\ 1\ \(1\).jpg);
+        }
+
+}
+
+.reviews-card {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+
+}
+
+.reviews-foto {
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    background-image: url(../img/pexels-elias-de-carvalho-1375849\ 1.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+
+
+
+}
+
+.reviews-text {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 256px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--bg-color);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30.6px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--primary-text-color);
+
+    @media screen and (min-width:768px) {
+            width: 545px;
+                height: 81px;
+                border-radius: 24px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 26px;
+                padding: 29px 80px 28px 80px;
+                
+        }
+    
+        @media screen and (min-width:1200px) {
+            width: 968px;
+            font-size: 16px;
+            line-height: 30px;
+        }
+}
+
+.reviews-name {
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--content-color);
+
+    @media screen and (min-width:768px) {
+           
+            font-size: 16px;
+            line-height: 30px;
+        }
+    
+        
+}
+
+.list-reviews {
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72px;
+    display: flex;
+}
+
+.svg-reviews {
+    width: 12px;
+    height: 12px;
+    fill: #D9D9D9;
+}
+
+.svg-reviews:active {
+    fill: #84A178;
+}
+
+.item-reviews:not(:last-child) {
+    margin-right: 18px;
+}

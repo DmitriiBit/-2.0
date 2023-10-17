@@ -1,0 +1,157 @@
+.advantages-title {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+
+ .list-advantages {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+    @media screen and (min-width:768px) {
+            flex-direction: row;
+            width: 616px;
+            align-items: flex-start;
+            margin-left: auto;
+            margin-right: auto;
+               
+        }
+
+        @media screen and (min-width:1200px) {
+            width: 1168px;
+    
+        }
+    
+       
+}
+
+.item-advantages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 166px;
+    &:not(:last-child) {
+            margin-bottom: 32px;
+    }
+    
+
+        @media screen and (min-width:768px) {
+             
+             &:not(:last-child){
+                margin-right: 80px;
+                margin-bottom: 0;
+             }  
+                
+                width: 152px;
+                height: 241px;
+            }
+
+        @media screen and (min-width:1200px) {
+         margin-right: 32px;
+         width: 368px;
+         height: 225px;
+        
+           
+        }
+}
+
+
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8D24E;
+    fill: #131313;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+
+    @media screen and (min-width:768px) {
+            margin-bottom: 32px;
+        }
+    
+        @media screen and (min-width:1200px) {
+            margin-bottom: 40px;
+        }
+}
+
+.weigth::after {
+
+    content: "";
+    background-image: url(../img/weight.png);
+    width: 36px;
+    height: 36px;
+
+}
+
+.cow-mini::after {
+    content: "";
+    background-image: url(../img/cow-mini.png);
+    width: 36px;
+    height: 36px;
+
+}
+
+.e::after {
+    content: "";
+    background-image: url(../img/ice\ crema.png);
+    width: 36px;
+    height: 36px;
+}
+
+.title-advantages {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FCFCFC;
+    margin-bottom: 12px;
+
+    @media screen and (min-width:768px) {
+            font-size: 48px;
+            line-height: 58.51px;
+        }
+    
+        @media screen and (min-width:1200px) {
+            font-size: 58px;
+            line-height: 71px;
+        }
+}
+
+.text-advantages {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FCFCFC;
+
+    @media screen and (min-width:768px) {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    
+        @media screen and (min-width:1200px) {
+            font-size: 16px;
+            line-height: 28px;
+        }
+}

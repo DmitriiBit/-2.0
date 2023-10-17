@@ -1,0 +1,75 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M855.456 448h-686.912c-22.4 0-40.544 13.6-40.544 30.4v3.2c0 16.8 18.144 30.4 40.544 30.4h686.912c22.4 0 40.544-13.6 40.544-30.4v-3.2c0-16.8-18.144-30.4-40.544-30.4zM855.456 640h-686.912c-22.4 0-40.544 13.6-40.544 30.4v3.2c0 16.8 18.144 30.4 40.544 30.4h686.912c22.4 0 40.544-13.6 40.544-30.4v-3.2c0-16.8-18.144-30.4-40.544-30.4zM855.456 256h-686.912c-22.4 0-40.544 13.6-40.544 30.4v3.2c0 16.8 18.144 30.4 40.544 30.4h686.912c22.4 0 40.544-13.6 40.544-30.4v-3.2c0-16.8-18.144-30.4-40.544-30.4z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "eva_menu-fill (1)"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)"
+        }
+      ],
+      "properties": {
+        "order": 2,
+        "id": 0,
+        "name": "menu",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 12,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": false,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "close",
+      "autoHost": true,
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "YzdjZTUxMTNmMSMxNjk3MTg0MjY4I0FiUlBjK3dqczNtaVhIOCs1M2FkL3BpVStyVU5UTmp5UFFLWjAzRzhGQkdO"
+    }
+  }
+}

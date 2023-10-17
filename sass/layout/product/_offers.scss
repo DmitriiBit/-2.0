@@ -1,0 +1,238 @@
+.offers {
+    position: relative;
+        top: 173px;
+       
+
+    @media screen and (min-width:768px) {
+            display: flex;
+            top: 210px;
+            left: 15px;
+            
+        }
+
+                // @media screen and (min-width: 1200px) {
+                //    margin: -15px;
+                // }
+}
+
+.item-offers {
+    position: relative;
+    width: 225px;
+
+    @media screen and (max-width:767px) {
+        &:not(:last-child) {
+                margin-bottom: 160px;
+            }
+    
+        }
+
+    
+
+    @media screen and (min-width:768px) {
+            
+            &:not(:last-child) {
+                    margin-right: 16px;
+                }
+            
+        }
+                 @media screen and (min-width:1200px) {
+                     
+                     // flex-basis: calc((100% - 8 * 15px) / 3);
+                     // flex-basis: calc((100% - 6 * 14.5px)/ 3 ) ;
+                     width: 370px;
+        
+                     &:not(:last-child) {
+                         margin-right: 29px;
+                     }
+        
+                 }
+
+    
+}
+
+
+
+.card-sumb {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -108px;
+    width: 200px;
+    height: 212px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    
+
+    &.icecream{
+        background-color: #AEC6A5;
+        box-shadow: 0px 8px 30px 0px #0A881740;
+    }
+
+    &.coffee{
+        
+        background-color: #EFD478;
+            box-shadow: 0px 8px 30px 0px #99721740;
+    }
+
+    &.milkshakes{
+        background-color: #D6936D;
+            box-shadow: 0px 8px 30px 0px #00000040;
+    }
+
+    @media screen and (min-width:768px) {
+        top: -120px;
+        width: 200px;
+        height: 212px;
+    }
+
+    @media screen and (min-width:1200px) {
+            top: -185px;
+            width: 302px;
+            height: 318px;
+        }
+
+    &::after {
+            content: "";
+            display: block;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            bottom: 12px;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+
+            @media screen and (min-width:1200px) {
+                    width: 302px;
+                    height: 318px;
+                    bottom: 16px;
+                }
+    
+        }
+
+}
+
+
+
+.icecream::after {
+
+        background-image: url(../img/mobail/kelsey-curtis-G5ZenftPPOA-unsplash\ 2.png);
+
+    @media screen and (min-width:768px) {
+            background-image: url(../img/tablet/kelsey-curtis-G5ZenftPPOA-unsplash\ 2.png);
+        }
+
+        @media screen and (min-width:1200px) {
+            background-image: url(../img/kelsey-curtis-302.png);
+        }
+
+        
+
+}
+
+.coffee::after {
+    background-image: url(../img/mobail/pariwat-pannium-0_qbeF_0zn8-unsplash\ 1.png);
+
+    @media screen and (min-width:768px) {
+    background-image: url(../img/tablet/pariwat-pannium-0_qbeF_0zn8-unsplash\ 1.png);
+            }
+
+        @media screen and (min-width:1200px) {
+            background-image: url(../img/pariwat-pannium-0_qbeF_0zn8-unsplash\ 1.png);
+        }
+    
+            
+}
+
+.milkshakes::after {
+    background-image: url(../img/mobail/victor-rutka-4FujjkcI40g-unsplash\ 1.png);
+
+    @media screen and (min-width:768px) {
+            background-image: url(/img/tablet/victor-rutka-4FujjkcI40g-unsplash\ 1.png);
+        }
+
+   @media screen and (min-width:1200px) {
+       background-image: url(../img/victor-rutka-4FujjkcI40g-unsplash\ 1.png);
+   }
+
+        
+}
+
+.card-description {
+    padding: 123px 40px 16px 40px;
+    border-radius: 24px;
+
+    &.ic {
+            background-color: #AEC6A5;
+        }
+
+    &.cof{
+        background-color: #EFD478;
+    }
+
+    &.milk{
+        background-color: #D6936D;
+       
+    }
+
+   
+    @media screen and (min-width:768px) {
+            padding: 108px 26px 12px 26px;
+            height: 308px;
+    
+        }
+    
+        @media screen and (min-width:1200px) {
+            padding: 165px 63px 60px 61px;
+    
+        }
+
+}
+
+
+
+.card-title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+    @media screen and (min-width:768px) {
+            font-size: 22px;
+            line-height: 26.82px;
+
+        }
+        @media screen and (min-width:1200px) {
+            font-size: 30px;
+            line-height: 37px;
+            margin-bottom: 66px;
+    
+        }
+
+}
+
+.card-text {
+    height: 142px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 81px;
+   
+    
+        @media screen and (min-width:1200px) {
+            font-size: 16px;
+            line-height: 28px;
+    
+        }
+
+}

@@ -1,0 +1,51 @@
+%transition {
+    transition-duration: 250ms;
+    transition-timing-function: var(-time-transition-duration);
+}
+
+%button {
+    
+    font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+    color: var(--accent-color);
+    background-color: var(--active-link-color);
+    cursor: pointer;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 10px;
+    min-width: 73px;
+    transition-property: color;
+    @extend %transition;
+}
+
+%logoFont {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+}
+
+%textFont {
+   
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+
+%linkFont{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--link-color);
+}

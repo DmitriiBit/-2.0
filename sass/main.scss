@@ -1,0 +1,47 @@
+@import "./utils/variabels";
+@import "./utils/fonts";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+//base//
+
+@import"./base/normalaize";
+@import"./base/common";
+
+//layout//
+
+//Hero//
+@import"./layout/hero/hero";
+@import"./layout/hero/main-nav";
+@import"./layout/hero/logo";
+@import"./layout/hero/site-navigation";
+@import"./layout/hero/site-nav";
+@import"./layout/hero/made-list";
+@import"./layout/hero/cafes";
+
+//Products//
+@import"./layout/product/product";
+@import"./layout/product/offers";
+
+//Tradition//
+@import"./layout/tradition/tradition";
+@import"./layout/tradition/advanteges";
+
+//Revievs//
+@import"./layout/reviews/reviews";
+
+
+
+//Footer//
+@import"./layout/footer/footer";
+
+
+// components//
+@import"./components/sections";
+@import"./components/container";
+@import"./components/buttons";
+@import"./components/inlain__svg";
+@import"./components/visually-hidden";
+@import"./components/titels";
+@import"./components/list-adresses";
+@import"./components/social";

@@ -1,0 +1,17 @@
+.social-link {
+    @include display;
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F8D24E;
+    fill: #84A178;
+    transition-property: fill;
+    @extend %transition;
+
+    &:hover,:focus {
+            fill: #FCFCFC;
+    
+        }
+}
+

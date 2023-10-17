@@ -5,12 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Seymour+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/> 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
     <!-- hero header -->
@@ -24,12 +20,12 @@
                             <li class="item-nav"><a href="./index.html" class="site-nav">Home </a></li>
                             <li class="item-nav"><a href="#How" class="site-nav ">How it’s made? </a></li>
                             <li class="item-nav"><a href="#Products" class="site-nav">Our products </a></li>
-                            <li class="item-nav"><a href="" class="site-nav">Contact </a></li>
+                            <li class="item-nav"><a href="./modal.html" class="site-nav">Contact </a></li>
                 
                         </ul>
                     </nav>
                 
-                    <button class="button-order">Buy now
+                    <button class="button-order" data-modal-open>Buy now
                         <svg class="arrow-right">
                             <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
                         </svg>
@@ -38,21 +34,25 @@
                     
                 </div>
                 <div class="icecream">
-                    <div>
-                        <h1 class="made">ice cream made with passion</h1>
-                        <ul class="list-item">
-                            <li class="item-link"><a href="#Products" class="button-product">Products</a></li>
-                            <li class="item-link"><a href="#How" class="button-how">How it’s made?</a></li>
+                    <div  class="made">
+                        <h1 class="made-ice"><span>ice cream made with</span> <span class="passion">passion</span> </h1>
+                        <ul class="made-list">
+                            <li class="made-list__item"><a href="#Products" class="button-product">Products</a></li>
+                            <li class="made-list__item"><a href="#How" class="button-how">How it’s made?</a></li>
                         </ul>
                         
                     </div>
                     
                     <ul >
-                        <li> <span class="cafe">51</span> <span class="filies">cafes</span> </li>
-                        <li> <span class="cafe">23</span> <span class="filies"> food trucks</span> </li>
+                        <li class="cafes-item"> <span class="cafe">16</span> <span class="filies">cafes</span> </li>
+                        <li class="cafes-item"> <span class="cafe">23</span> <span class="filies"> food trucks</span> </li>
                     </ul>
                 </div>
-                <div class="scoop">
+               
+
+               
+            </div>
+             <div class="scoop">
                   <p >Indulge in a scoop of ice cream made with passion and treat your taste buds to an unforgettable
                     experience!</p>
                     <button type="button" class="more-white">
@@ -60,9 +60,6 @@
                         </svg>
                         </button>
                 </div>
-               
-            </div>
-
             
 
         </section>
@@ -78,7 +75,7 @@
                     <div>
                       <div class="card-sumb icecream">
                       </div>
-                      <div class="card-description">
+                      <div class="card-description ic">
                         <h3 class="card-title">ice cream</h3>
                         <p class="card-text">Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer
                         </p>
@@ -98,7 +95,7 @@
                         
                     
                       </div>
-                      <div class="card-description">
+                      <div class="card-description cof">
                         <h3 class="card-title">ice coffee</h3>
                         <p class="card-text">Fragrant invigorating drink created from 100% natural ingredients without the use of
                             preservatives and flavor enhancers
@@ -115,7 +112,7 @@
                         <div class="card-sumb milkshakes">
                         
                         </div>
-                        <div class="card-description">
+                        <div class="card-description milk">
                             <h3 class="card-title">milkshakes</h3>
                             <p class="card-text">Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other
                                 sweets of your choice</p>
@@ -138,31 +135,31 @@
         <!-- tradition and love  -->
     <section class="tradition">
         <div class="container">
-            <h2 id="How" class="title-tradition">tradition and love <span class="howi">how it’s made?</span></h2>
+            <h2 id="How" class="title-tradition"><span>tradition and love</span><span class="howi">how it’s made?</span></h2>
 
             <div class="cow">
                 <div class="card-tradition">
                 </div>
                 <div>
                     <ul class="list-tradition">
-                        <li class="item-tradition">Ice is a place where you will become not only a little happier, but also healthier.
+                        <li class="item-tradition"><p class="text-tradition__ice">Ice is a place where you will become not only a little happier, but also healthier.
                             Health is the main value for us, and
-                            we follow it when creating our handmade desserts.</li>
-                        <li class="item-tradition">We use traditional recipes and 100% natural ingredients. Our products are so natural
+                            we follow it when creating our handmade desserts.</p></li>
+                        <li class="item-tradition"><p class="text-tradition">We use traditional recipes and 100% natural ingredients. Our products are so natural
                             that they can be given to children
                             from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23
-                            milkshakes.
+                            milkshakes.</p>
                         </li>
-                        <li class="item-tradition">This is enough to choose ice cream and coffee for any mood!</li>
+                        <li class="item-tradition"><p class="text-tradition">This is enough to choose ice cream and coffee for any mood!</p></li>
                     </ul>
-                    <button type="button" class="button-tradition">Read more
+                    <button type="button" class="button-tradition" data-modal-op>Read more
                         <svg class="arrow-right">
                             <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
                         </svg>
                     </button>
 
                 </div>
-              
+                 
             </div>
 
             <!-- advantages -->
@@ -191,7 +188,7 @@
                 </li>
 
                 <li class="item-advantages">
-                    <div class="advantages ice">
+                    <div class="advantages e">
                        
                     </div>
                     <div>
@@ -219,7 +216,7 @@
                 </div>
                 <h3 class="reviews-name">Emily, Los Angeles</h3>
                 
-                    </div>
+                    
             
             
 
@@ -252,7 +249,7 @@
                 </ul>
         
                 <ul>
-                    <li><a href="tel:+61(0) 383 766 284" class="contcacts">+61(0) 383 766 284</a></li>
+                    <li><a href="tel:+61(0)383766284" class="contcacts">+61(0) 383 766 284</a></li>
                     <li><a href="mailto:noreply@envato.com" class="contcacts">noreply@envato.com</a></li>
                 </ul>
         
@@ -260,7 +257,7 @@
             <li class="item-adresses">
                 <ul class="list-city">
                     <li class="item-city">
-                        <p class="title-type-food">FOOD TRUCK</p>
+                        <p class="title-type__food">FOOD TRUCK</p>
                     </li>
                     <li class="item-city">
                         <h3 class="name-city">Los Angeles</h3>
@@ -277,7 +274,7 @@
                 </ul>
             
                 <ul>
-                    <li><a href="tel:+61(0) 383 766 284" class="contcacts">+61(0) 383 766 284</a></li>
+                    <li><a href="tel:+61(0)383766284" class="contcacts">+61(0) 383 766 284</a></li>
                     <li><a href="mailto:noreply@envato.com" class="contcacts">noreply@envato.com</a></li>
                 </ul>
             
@@ -302,7 +299,7 @@
                 </ul>
             
                 <ul>
-                    <li><a href="tel:+61(0) 383 766 284" class="contcacts">+61(0) 383 766 284</a></li>
+                    <li><a href="tel:+61(0)383766284" class="contcacts">+61(0) 383 766 284</a></li>
                     <li><a href="mailto:noreply@envato.com" class="contcacts">noreply@envato.com</a></li>
                 </ul>
             
@@ -357,219 +354,6 @@
           </div>
            <p class="footer-p">© 2022 - IceCream. All Rights Reserved. </p>
     </div>
-       
-           <div class="backdrop ">
-                <form class="modal-buy">
-                    <p class="modal-tytel">Buy now</p>
-                    <ul class="buy-list">
-                        <li class="buy-item">
-                            
-                             <div class="buy-description">
-                                 <div class="buy-sumb cream">
-                                 </div>
-                               <h3 class="buy-title">ice cream</h3>
-                             </div>
-                        </li>
-                        <li class="buy-item">
-                            
-                             <div class="buy-description">
-                                 <div class="buy-sumb cofe">
-                                 </div>
-                               <h3 class="buy-title">ice coffee</h3>
-                             </div>
-                        </li>
-                        <li class="buy-item">
-                            
-                             <div class="buy-description">
-                                 <div class="buy-sumb milk">
-                                 </div>
-                               <h3 class="buy-title">milkshake</h3>
-                             </div>
-                        </li>
-                    </ul>
-                    <div class="form-order">
-                         <div class="form-fild">
-                            <input type="text" placeholder=" "  id="name" class="form-input"/>
-                            <label for="name" class="label-order"><span class="label-text">Name</span></label>
-
-                         </div>
-
-                         <div class="form-fild">
-                              
-                              <input type="tel" placeholder=" " id="phone"  class="form-input"/>
-                              <label for="phone" class="label-order"><span class="label-text">Phone</span> </label>
-
-                         </div>
-                               
-                        <div class="form-fild textarea"> 
-                             <textarea id="textarea" class="terea" placeholder=" "></textarea>
-                              <label for="textarea" class="label-order" ><span class="label-text">Comment</span></label>
-                        </div>
-                        
-                         <button type="submit" class="sub">Submit</button>
-                         
-                    </div>
-                           <button type="button" class="button-close">
-                            <svg class="close">
-                                <use href="./img/symbol-defs.svg#close"></use>
-                            </svg>
-                         </button> 
-                </form>
-            </div>
-
-             <div class="back">
-                <form class="modal-chololate">
-                    <p class="modal-tytel">Chololate icecream</p>
-                   <div class="choko-creame">
-
-                   </div>
-                   <div class="element">
-                     <ul class="elements-list">
-                         <li class="elements-item">
-                            
-                             <div class="elements-description">
-                                
-                                 <div class="elements-sumb">
-                                    <p class="el-text">320</p>
-                                 </div>
-                               <p class="elements-text">kcal</p>
-                             </div>
-                        </li>
-                         <li class="elements-item">
-                            
-                             <div class="elements-description">
-                                
-                                 <div class="elements-sumb">
-                                    <p class="el-text">4g</p>
-                                 </div>
-                               <p class="elements-text">Protein...</p>
-                             </div>
-                        </li>
-                        <li class="elements-item">
-                            
-                             <div class="elements-description">
-                                
-                                 <div class="elements-sumb">
-                                    <p class="el-text">8,2g</p>
-                                 </div>
-                               <p class="elements-text">Fats</p>
-                             </div>
-                        </li>
-                        <li class="elements-item">
-                            
-                             <div class="elements-description">
-                                
-                                 <div class="elements-sumb">
-                                    <p class="el-text">40,4g</p>
-                                 </div>
-                               <p class="elements-text">Carbs</p>
-                             </div>
-                        </li>
-                     </ul>
-
-                     
-                   </div>
-
-                   <div class="Ingred">
-                    <p class="Ingred-text">Ingredients</p>
-                    <ul class="Ingredients-list">
-                        <li class="Ingredients-item">
-                            <div class="Ingredients-box">
-                             <p class="Ingredients-text">Milk</p>
-                             <p class="Ingredients-numbers">100ml</p>
-                            </div>
-                            
-                    
-                        </li>
-                        <li class="Ingredients-item">
-                            <div class="Ingredients-box">
-                             <p class="Ingredients-text">Belgian chocolate</p>
-                             <p class="Ingredients-numbers">20g</p>
-                            </div>
-                            
-                    
-                        </li>
-                        <li class="Ingredients-item">
-                            <div class="Ingredients-box">
-                             <p class="Ingredients-text">Cream</p>
-                             <p class="Ingredients-numbers">150ml</p>
-                            </div>
-                            
-                    
-                        </li>
-                        <li class="Ingredients-item">
-                            <div class="Ingredients-box">
-                             <p class="Ingredients-text">Cocoa powder</p>
-                             <p class="Ingredients-numbers">30g</p>
-                            </div>
-                            
-                    
-                        </li>
-                        <li class="Ingredients-item">
-                            <div class="Ingredients-box">
-                             <p class="Ingredients-text">Sugar</p>
-                             <p class="Ingredients-numbers">40g</p>
-                            </div>
-                            
-                    
-                        </li>
-                        <li class="Ingredients-item">
-                            <div class="Ingredients-box">
-                             <p class="Ingredients-text">Vanilla sugar</p>
-                             <p class="Ingredients-numbers">10g</p>
-                            </div>
-                            
-                    
-                        </li>
-                     </ul>
-
-                   </div>
-                   
-                    <div class="form-order">
-                         <div class="form-fild">
-                            <label for="name" class="label-order"><span class="label-text">Name</span></label>
-                            <input type="text" placeholder=" "  id="name" class="form-input"/>
-
-                         </div>
-
-                         <div class="form-fild">
-                              
-                              <input type="tel" placeholder=" " id="phone"  class="form-input"/>
-                              <label for="phone" class="label-order"><span class="label-text">Phone</span> </label>
-
-                         </div>
-                               
-                        <div class="form-fild textarea"> 
-                             <textarea id="textarea" class="terea" placeholder=" "></textarea>
-                              <label for="textarea" class="label-order" ><span class="label-text">Comment</span></label>
-                        </div>
-                        
-                         <button type="submit" class="sub">Submit</button>
-                         
-                    </div>
-                           <button type="button" class="button-close">
-                            <svg class="close">
-                                <use href="./img/symbol-defs.svg#close"></use>
-                            </svg>
-                         </button> 
-                </form>
-            </div>
-            <div class="how">
-                <form class="modal-how">
-                    <p class="modal-tytel">How it’s made?</p>
-                    <div class="video"></div>
-                    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-
-                           <button type="button" class="button-close">
-                            <svg class="close">
-                                <use href="./img/symbol-defs.svg#close"></use>
-                            </svg>
-                         </button> 
-                </form>
-
-            </div>
-
-   
    </div>                           
  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>  
  <script src="js/scrypt.js"></script>

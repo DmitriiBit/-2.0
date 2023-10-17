@@ -1,0 +1,115 @@
+section {
+    margin-right: auto;
+    margin-left: auto;
+    @media screen and (min-width:480px) {
+            width: 480px;
+        }
+
+    @media screen and (min-width:768px) {
+         width: 768px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 1200px;
+        }
+}
+
+.hero {
+    height: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--bg-color);
+    background-image: url(../img/mobail/крапки.png), url(../img/mobail/mobile.png);
+    background-repeat: no-repeat;
+    background-position: left 0px bottom 0px, left 83px bottom 0px;
+
+    @media screen and (min-width:480px) {
+
+        background-image: url(../img/mobail/крапки.png), url(../img/mobail/mobile.png);
+        background-position: left 150px bottom 0px, left 242px bottom 0px;
+        height: 415px;
+        width: 480px;
+    }
+
+        @media screen and (min-width:768px) {
+    
+            background-image: url(../img/tablet/много\ мороженок\ 1.png),
+            url(../img/tablet/tablet.png),
+            url(../img/tablet/крапки\ \(1\).png);
+            background-position: left 32px bottom 12px,
+            right 92px bottom 0px,
+            left 0 bottom 0;
+            width: 768px;
+        }
+
+
+    @media screen and (min-width:1200px) {
+
+        background-image: url(../img/много\ мороженок\ 1.png), url(../img/desktop.png), url(../img/Крапки.png);
+        background-position: left 16px bottom 65px, right 92px bottom 0px, left 0 bottom 0;
+        height: 664px;
+        width: 1200px;
+    }
+}
+
+
+
+.product {
+    height: 1900px;
+    padding-top: 61px;
+    padding-bottom: 60px;
+    background-image: url(../img/background/Backgroud_mobile.png);
+    background-size: cover;
+    background-position: center;
+
+
+    @media screen and (min-width: 768px) {
+            width: 768px;
+            height: 710px;
+            background-image: url(../img/tablet/Мороженое\ фон.png);
+            background-position: top -120px left 0px;
+        }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+        height: 1051px;
+        background-image: url(../img/Мороженое\ фон.png);
+    }
+    
+    
+    
+}
+
+.tradition {
+    background-color: var(--bg-color);
+    padding-top: 60px;
+    padding-bottom: 81px;
+
+    @media screen and (min-width:768px) {
+            padding-bottom: 204px;
+        }
+    @media screen and (min-width:1200px) {
+         padding-bottom: 178px;
+        }
+}
+
+.reviews {
+    position: relative;
+    background-image: url(../img/mobail/ФОН.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 413px;
+    // height: 1053px;
+
+    @media screen and (min-width:768px) {
+            padding-bottom: 379px;
+            background-position-y: 40px;
+            background-image: url(../img/tablet/Мороженое\ фон\ 1x.png);
+        }
+    
+        @media screen and (min-width:1200px) {
+            padding-bottom: 228px;
+            background-image: url(../img/Мороженое\ фон.png);
+        }
+
+}

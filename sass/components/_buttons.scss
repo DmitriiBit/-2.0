@@ -1,0 +1,288 @@
+.button-order {
+
+    display: none;
+
+    @media screen and (min-width:768px) {
+            font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 17px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: var(--accent-color);
+                background-color: var(--active-link-color);
+                cursor: pointer;
+                line-height: 1.8;
+                letter-spacing: 0.06em;
+                border: none;
+                border-radius: 10px;
+                min-width: 73px;
+                transition-property: color;
+                transition-duration: 250ms;
+                transition-timing-function: var(-time-transition-duration);
+                
+            @include display;
+            width: 152px;
+            height: 42px;
+            fill: var(--accent-color);
+        
+            &:focus {
+                background-color: var(--bt-bg-color);
+                color: var(--primary-bg-color);
+                fill: var(--primary-bg-color);
+            }
+        
+            &:hover {
+                background-color: var(--bt-bg-color);
+            }
+        
+            &:disabled {
+                background-color: var(--disabled);
+                color: var(--accent-color);
+            }
+    }
+    
+}
+
+.button-product {
+    @extend %button;
+        font-size: 12px;
+        line-height: 14.63px;
+        @include display;
+        width: 108px;
+        height: 38px;
+        margin-right: 12px;
+        border-radius: 10px;
+        line-height: 18px;
+        border: 2px solid var(--active-link-color);
+        background-color: transparent;
+    
+        &:hover {
+            border-color: var(--bt-bg-color);
+        }
+    
+        &:focus {
+    
+            border-color: var(--bt-bg-color);
+            color: var(--primary-text-color);
+            background-color: var(--bg-color);
+        }
+    
+        &:disabled {
+            border-color: var(--disabled);
+        }
+
+    @media screen and (min-width:1200px) {
+        width: 134px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    
+}
+
+
+.button-how {
+    @extend %button;
+        font-size: 12px;
+        line-height: 14.63px;
+    @include display;
+    width: 108px;
+    height: 38px;
+    color: var(--active-link-color);
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    
+
+    &:hover {
+            color: var(--link-color);
+        }
+    &:focus {
+        color: var(bt-bg-color);
+    }
+    &:disabled {
+        color: var(--disabled);
+    }
+
+        @media screen and (min-width:1200px) {
+            width: 134px;
+            height: 42px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+}
+
+.more-white {
+    @extend %button;
+    display: flex;
+    background-color: transparent;
+    border: none;
+    padding-left: 2px;
+    width: 40px;
+    height: 16px;
+
+    @media screen and (min-width:768px) {
+        margin-top: 29px;
+    }
+
+        @media screen and (min-width:1200px) {
+            margin-top: 24px;
+        }
+    
+    
+}
+
+.more {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    width: 50px;
+    height: 26px;
+    fill: var(--accent-color);
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.more-arrow {
+    display: block;
+    width: 40px;
+    height: 16px;
+}
+
+.button-tradition {
+    @extend %button;
+    @include display;
+    border: none;
+    width: 164px;
+    height: 42px;
+    background-color: var(--active-link-color);
+    line-height: 18px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    fill: var(--accent-color);
+    &:hover {
+            color: var(--accent-color);
+            background-color:var(--bt-bg-color) ;
+        }
+    
+        &:focus {
+            background-color: var(--bt-bg-color);
+            color: var(--link-color);
+            fill: var(--link-color);
+        }
+    
+        &:disabled {
+            background-color: var--disabled;
+            color: var(--accent-color);
+        }
+
+                @media screen and (min-width:768px) {
+                    margin-top: 32px;
+                    margin-left: 38px;
+                    line-height: 18px;
+                }
+
+                @media screen and (min-width:1200px) {
+                    margin-top: 54px;
+                        margin-left: 109px;
+                    
+                }
+}
+
+.sub {
+    @extend %button;
+    width: 152px;
+    height: 42px;
+    background-color: var(--active-link-color);
+    border: none;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    &:hover {
+            background-color: var(--bt-bg-color);
+        }
+    &:focus {
+        background-color: var(--bt-bg-color);
+        color: var(--link-color);
+    }
+    &:disabled {
+        background-color: var(--disabled);
+    }
+}
+
+.location {
+    @extend %button;
+    @include display;
+    width: 196px;
+    height: 42px;
+    color: var(--content-color);
+    line-height: 18px;
+
+    &:hover {
+            background-color: var(--bt-bg-color);
+    
+        }
+    &:focus {
+        color: var(--link-color);
+        fill: var(--link-color);
+    }
+    &:disabled {
+        background-color: var(--disabled);
+    }
+
+}
+
+
+.franchise {
+    @extend %button;
+    @include display;
+    width: 196px;
+    height: 42px;
+    border: 2px solid #F8D24E;
+    background-color: #84A178;
+    line-height: 18px;
+
+    &:hover {
+            border-color: var(--bt-bg-color);
+        }
+    &:focus {
+        color: var(--link-color);
+        fill: var(--link-color);
+    }
+    &:disabled {
+        background-color: var(--disabled);
+    }
+    
+}
+
+
+//modal//
+
+.button-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    @include display;
+    width: 24px;
+    height: 24px;
+    fill: var(--accent-color);
+    padding: 0;
+    border: 0;
+    background-color: var(--title-text-color);
+    cursor: pointer;
+    transition-property: fill;
+    @extend %transition;
+
+    &:hover,:focus {
+            fill: var(--bt-bg-color);
+        }
+}
+
+
+
+
