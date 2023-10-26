@@ -10,9 +10,16 @@
     margin-right: auto;
     position: relative;
     bottom: 32px;
+    margin-bottom: 80px;
+
+    @media screen and (min-width:480px) {
+            width: 440px;
+            height: 204px;
+            background-image: url(../img/480/brooke-lark-8beTH4VkhLI-unsplash\ 2.jpg);
+        }
 
     @media screen and (min-width:768px) {
-            border-radius: 8px;
+            margin-bottom: 0;
             width: 704px;
             height: 326px;
             bottom: 144px;
@@ -22,6 +29,7 @@
         @media screen and (min-width:1200px) {
             width: 1013px;
             height: 422px;
+            margin-bottom: 140px;
             bottom: 98px;
             border-radius: 18px;
             background-image: url(../img/brooke-lark-8beTH4VkhLI-unsplash\ 1\ \(1\).jpg);

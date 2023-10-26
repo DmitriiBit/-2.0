@@ -16,21 +16,40 @@
                 <div class="hero-header">
                     <nav class="main-nav">
                         <a href="./index.html"><img class="logo" src="./img/Logo.png" alt=""></a>
-                        <ul class="site-navigation">
+                        <div class="menu-container" data-menu>
+                            <ul class="site-navigation">
                             <li class="item-nav"><a href="./index.html" class="site-nav">Home </a></li>
                             <li class="item-nav"><a href="#How" class="site-nav ">How it’s made? </a></li>
                             <li class="item-nav"><a href="#Products" class="site-nav">Our products </a></li>
                             <li class="item-nav"><a href="./modal.html" class="site-nav">Contact </a></li>
                 
                         </ul>
-                    </nav>
-                
-                    <button class="button-order" data-modal-open>Buy now
+                        <button class="button-order" aria-expanded="false" 
+                        data-modal-open>Buy now
                         <svg class="arrow-right">
                             <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
                         </svg>
                         
-                    </button>
+                        </button>
+
+                        </div>
+                        
+
+
+                        <button class="menu-button is-open" data-menu-button>
+                            <svg width="32px" height="32px" aria-label="Перемикач мобільного меню">
+                                <use class="icon-menu" href="./img/symbol-defs.svg#menu">
+                                </use>
+                                <use class="icon-close" href="./img/symbol-defs.svg#ep_close">
+                                </use>
+                             </svg>
+                        </button>
+
+                    </nav>
+                
+                    
+
+                    
                     
                 </div>
                 <div class="icecream">
@@ -347,7 +366,7 @@
     
                 </ul>
     
-                <div class="footer-ph">Feel free to contact <a class="footer-phone" href="tel:+61(0)383766284">+61 (0) 383 766 284</a></div>
+                <div class="footer-ph">Feel free to contact  <a class="footer-phone" href="tel:+61(0)383766284">  +61 (0) 383 766 284</a></div>
             </div>
            
 
@@ -357,5 +376,6 @@
    </div>                           
  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>  
  <script src="js/scrypt.js"></script>
+ <script src="js/menu.js"></script>
 </body>
 </html>

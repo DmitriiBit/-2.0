@@ -55,24 +55,26 @@ section {
 
 
 .product {
+    position: relative;
     height: 1900px;
     padding-top: 61px;
     padding-bottom: 60px;
     background-image: url(../img/background/Backgroud_mobile.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 
 
     @media screen and (min-width: 768px) {
             width: 768px;
             height: 710px;
             background-image: url(../img/tablet/Мороженое\ фон.png);
-            background-position: top -120px left 0px;
+            // background-position: top -120px left 0px;
         }
 
     @media screen and (min-width: 1200px) {
         width: 1200px;
-        height: 1051px;
+        height: 930px;
         background-image: url(../img/Мороженое\ фон.png);
     }
     
