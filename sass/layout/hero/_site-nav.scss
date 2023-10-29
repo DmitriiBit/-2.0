@@ -1,13 +1,32 @@
 .site-nav {
     font-family: Montserrat;
-        font-size: 16px;
+        font-size: 32px;
         font-weight: 700;
-        line-height: 20px;
+        line-height: 39px;
         letter-spacing: 0em;
-        text-align: left;
+        text-align: center;
         color: var(--link-color);
-
-        &:hover, &:focus {
-                color: var(--active-link-color);
+        &:hover,
+            &:focus {
+                color: var(--content-color);
             }
+
+         @media screen and (min-width:768px) {
+             font-size: 48px;
+             line-height: 58.51px;
+             text-align: left;
+             
+            }
+
+    @media screen and (min-width:1200px) {
+                font-size: 16px;
+                line-height: 20px;
+                text-align: left;
+                &:hover,
+                    &:focus {
+                        color: var(--active-link-color);
+                    }
+        }
+   
+        
 }

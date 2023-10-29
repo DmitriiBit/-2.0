@@ -1,6 +1,7 @@
 
 
 .hero-header {
+  
   display:flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -14,6 +15,23 @@
     @media screen and (min-width:1200px) {
       margin-bottom: 45px;
     }
+}
+
+.menu-tablet{
+  display: none;
+
+
+  &.is-open{
+    display: flex;
+  }
+}
+
+.menu-decstop{
+  display: none;
+
+  @media screen and (min-width:1200px) {
+    display: flex;
+  }
 }
 
 .dots {

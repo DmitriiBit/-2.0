@@ -6,6 +6,11 @@
     fill: #ffff;
     margin: 0;
     bottom: 0;
+    
+
+    // @media screen and (min-width:768px) {
+    //         margin-right: 32px;
+    //     }
 
     @media screen and (min-width:1200px) {
         display: none;
@@ -14,22 +19,23 @@
 }
 
 .menu-button .icon-close{
-    display: none;
+    display: block;
 }
 .menu-button.is-open .icon-close{
-    display: block;
-} 
-.menu-button.is-open .icon-menu {
     display: none;
+} 
+.menu-button .icon-menu{
+    display: none;
+}
+.menu-button.is-open .icon-menu {
+    display: block;
 }
 
 
 
 .button-order {
 
-    display: none;
-
-    @media screen and (min-width:768px) {
+        
             font-family: Montserrat;
                 font-size: 14px;
                 font-weight: 600;
@@ -47,29 +53,82 @@
                 transition-property: color;
                 transition-duration: 250ms;
                 transition-timing-function: var(-time-transition-duration);
-                
-            @include display;
-            width: 152px;
-            height: 42px;
-            fill: var(--accent-color);
-        
-            &:focus {
-                background-color: var(--bt-bg-color);
-                color: var(--primary-bg-color);
-                fill: var(--primary-bg-color);
-            }
-        
-            &:hover {
-                background-color: var(--bt-bg-color);
-            }
-        
-            &:disabled {
-                background-color: var(--disabled);
-                color: var(--accent-color);
-            }
-    }
+            
+            
+                @include display;
+                width: 152px;
+                height: 42px;
+                fill: var(--accent-color);
+            
+                &:focus {
+                    background-color: var(--bt-bg-color);
+                    color: var(--primary-bg-color);
+                    fill: var(--primary-bg-color);
+                }
+            
+                &:hover {
+                    background-color: var(--bt-bg-color);
+                }
+            
+                &:disabled {
+                    background-color: var(--disabled);
+                    color: var(--accent-color);
+                        }
     
+     @media screen and (max-width:1199px) {
+        
+        margin-left: auto;
+            margin-right: auto;
+     }
 }
+
+// .button-ord{
+//   display: none;
+  
+//   @media screen and (min-width:768px) and (max-width:1199px){
+//     display: block;
+//     font-family: Montserrat;
+//         font-size: 14px;
+//         font-weight: 600;
+//         line-height: 17px;
+//         letter-spacing: 0em;
+//         text-align: center;
+//         color: var(--accent-color);
+//         background-color: var(--active-link-color);
+//         cursor: pointer;
+//         line-height: 1.8;
+//         letter-spacing: 0.06em;
+//         border: none;
+//         border-radius: 10px;
+//         min-width: 73px;
+//         transition-property: color;
+//         transition-duration: 250ms;
+//         transition-timing-function: var(-time-transition-duration);
+    
+    
+//         @include display;
+//         width: 152px;
+//         height: 42px;
+//         fill: var(--accent-color);
+    
+//         &:focus {
+//             background-color: var(--bt-bg-color);
+//             color: var(--primary-bg-color);
+//             fill: var(--primary-bg-color);
+//         }
+    
+//         &:hover {
+//             background-color: var(--bt-bg-color);
+//         }
+    
+//         &:disabled {
+//             background-color: var(--disabled);
+//             color: var(--accent-color);
+//         }
+//   }
+
+  
+// }
 
 .button-product {
     @extend %button;

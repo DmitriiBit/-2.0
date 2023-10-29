@@ -16,27 +16,10 @@
                 <div class="hero-header">
                     <nav class="main-nav">
                         <a href="./index.html"><img class="logo" src="./img/Logo.png" alt=""></a>
-                        <div class="menu-container" data-menu>
-                            <ul class="site-navigation">
-                            <li class="item-nav"><a href="./index.html" class="site-nav">Home </a></li>
-                            <li class="item-nav"><a href="#How" class="site-nav ">How it’s made? </a></li>
-                            <li class="item-nav"><a href="#Products" class="site-nav">Our products </a></li>
-                            <li class="item-nav"><a href="./modal.html" class="site-nav">Contact </a></li>
-                
-                        </ul>
-                        <button class="button-order" aria-expanded="false" 
-                        data-modal-open>Buy now
-                        <svg class="arrow-right">
-                            <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
-                        </svg>
                         
-                        </button>
-
-                        </div>
-                        
-
-
-                        <button class="menu-button is-open" data-menu-button>
+                         
+                        <div class="n">
+                             <button class="menu-button is-open" data-menu-button>
                             <svg width="32px" height="32px" aria-label="Перемикач мобільного меню">
                                 <use class="icon-menu" href="./img/symbol-defs.svg#menu">
                                 </use>
@@ -44,14 +27,72 @@
                                 </use>
                              </svg>
                         </button>
+                        
+                        
+                        <div class="menu-container" data-menu>
+                            <ul class="site-navigation">
+                            <li class="item-nav"><a href="./index.html" class="site-nav">Home </a></li>
+                            <li class="item-nav"><a href="#How" class="site-nav ">How it’s made? </a></li>
+                            <li class="item-nav"><a href="#Products" class="site-nav">Our products </a></li>
+                            <li class="item-nav"><a href="./modal.html" class="site-nav">Contact </a></li>
+                            </ul>
+                           
+                             <button class="button-order" aria-expanded="false" 
+                             data-modal-open>Buy now
+                             <svg class="arrow-right">
+                             <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
+                             </svg>
+                        
+                        </button>
+                        </div>
+                              <!-- <button class="button-ord" aria-expanded="false" 
+                             data-modal-open>Buy now
+                             <svg class="arrow-right">
+                             <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
+                             </svg>
+                        
+                        </button> -->
+                        </div>
+
+                        
+                            <div class="menu-tablet">
+                             <ul class="site-navigation">
+                            <li class="item-nav"><a href="./index.html" class="site-nav">Home </a></li>
+                            <li class="item-nav"><a href="#How" class="site-nav ">How it’s made? </a></li>
+                            <li class="item-nav"><a href="#Products" class="site-nav">Our products </a></li>
+                            <li class="item-nav"><a href="./modal.html" class="site-nav">Contact </a></li>
+                            </ul>
+                          
+                            </div>
+                            
+
+                         
+                        
+                        
+
+                        <div class="menu-decstop">
+                            <ul class="site-navigation">
+                            <li class="item-nav"><a href="./index.html" class="site-nav">Home </a></li>
+                            <li class="item-nav"><a href="#How" class="site-nav ">How it’s made? </a></li>
+                            <li class="item-nav"><a href="#Products" class="site-nav">Our products </a></li>
+                            <li class="item-nav"><a href="./modal.html" class="site-nav">Contact </a></li>
+                            </ul>
+
+                                <button class="button-order" aria-expanded="false" 
+                             data-modal-open>Buy now
+                             <svg class="arrow-right">
+                             <use href="./img/symbol-defs (1).svg#icon-ep_arrow-right-bold"></use>
+                             </svg>
+                        
+                        </button>
+
+                        </div>
 
                     </nav>
-                
-                    
-
-                    
                     
                 </div>
+
+
                 <div class="icecream">
                     <div  class="made">
                         <h1 class="made-ice"><span>ice cream made with</span> <span class="passion">passion</span> </h1>
@@ -373,6 +414,259 @@
           </div>
            <p class="footer-p">© 2022 - IceCream. All Rights Reserved. </p>
     </div>
+
+    <div class="backdrop is-hidden" data-modal>
+                <form class="modal-buy">
+                    <p class="modal-tytel">Buy now</p>
+                    <ul class="buy-list">
+                        <li class="buy-item">
+                            
+                             <div class="buy-description">
+                                 <div class="buy-sumb cream">
+                                 </div>
+                               <h3 class="buy-title">ice cream</h3>
+                             </div>
+                        </li>
+                        <li class="buy-item">
+                            
+                             <div class="buy-description">
+                                 <div class="buy-sumb cofe">
+                                 </div>
+                               <h3 class="buy-title">ice coffee</h3>
+                             </div>
+                        </li>
+                        <li class="buy-item">
+                            
+                             <div class="buy-description">
+                                 <div class="buy-sumb milk">
+                                 </div>
+                               <h3 class="buy-title">milkshake</h3>
+                             </div>
+                        </li>
+                    </ul>
+                    <div class="form-order">
+                         <div class="form-fild">
+                            <input type="text" placeholder=" "  id="name" class="form-input"/>
+                            <label for="name" class="label-order"><span class="label-text">Name</span></label>
+
+                         </div>
+
+                         <div class="form-fild">
+                              
+                              <input type="tel" placeholder=" " id="phone"  class="form-input"/>
+                              <label for="phone" class="label-order"><span class="label-text">Phone</span> </label>
+
+                         </div>
+                               
+                        <div class="form-fild textarea"> 
+                             <textarea id="textarea" class="terea" placeholder=" "></textarea>
+                              <label for="textarea" class="label-order" ><span class="label-text">Comment</span></label>
+                        </div>
+                        
+                         <button type="submit" class="sub">Submit</button>
+                         
+                    </div>
+                           <button type="button" class="button-close" data-modal-close>
+                            <svg class="close">
+                                <use href="./img/symbol-defs.svg#close"></use>
+                            </svg>
+                         </button> 
+                </form>
+            </div>
+
+            <div class="back">
+                <form class="modal-chololate">
+                    <p class="modal-tytel">Chololate icecream</p>
+                   <div class="choko-creame">
+
+                   </div>
+                   <div class="element">
+                     <ul class="elements-list">
+                         <li class="elements-item">
+                            
+                             <div class="elements-description">
+                                
+                                 <div class="elements-sumb">
+                                    <p class="el-text">320</p>
+                                 </div>
+                               <p class="elements-text">kcal</p>
+                             </div>
+                        </li>
+                         <li class="elements-item">
+                            
+                             <div class="elements-description">
+                                
+                                 <div class="elements-sumb">
+                                    <p class="el-text">4g</p>
+                                 </div>
+                               <p class="elements-text">Protein...</p>
+                             </div>
+                        </li>
+                        <li class="elements-item">
+                            
+                             <div class="elements-description">
+                                
+                                 <div class="elements-sumb">
+                                    <p class="el-text">8,2g</p>
+                                 </div>
+                               <p class="elements-text">Fats</p>
+                             </div>
+                        </li>
+                        <li class="elements-item">
+                            
+                             <div class="elements-description">
+                                
+                                 <div class="elements-sumb">
+                                    <p class="el-text">40,4g</p>
+                                 </div>
+                               <p class="elements-text">Carbs</p>
+                             </div>
+                        </li>
+                     </ul>
+
+                     
+                   </div>
+
+                   <div class="Ingred">
+                    <p class="Ingred-text">Ingredients</p>
+                    <ul class="Ingredients-list">
+                        <li class="Ingredients-item">
+                            <div class="Ingredients-box">
+                             <p class="Ingredients-text">Milk</p>
+                             <p class="Ingredients-numbers">100ml</p>
+                            </div>
+                            
+                    
+                        </li>
+                        <li class="Ingredients-item">
+                            <div class="Ingredients-box">
+                             <p class="Ingredients-text">Belgian chocolate</p>
+                             <p class="Ingredients-numbers">20g</p>
+                            </div>
+                            
+                    
+                        </li>
+                        <li class="Ingredients-item">
+                            <div class="Ingredients-box">
+                             <p class="Ingredients-text">Cream</p>
+                             <p class="Ingredients-numbers">150ml</p>
+                            </div>
+                            
+                    
+                        </li>
+                        <li class="Ingredients-item">
+                            <div class="Ingredients-box">
+                             <p class="Ingredients-text">Cocoa powder</p>
+                             <p class="Ingredients-numbers">30g</p>
+                            </div>
+                            
+                    
+                        </li>
+                        <li class="Ingredients-item">
+                            <div class="Ingredients-box">
+                             <p class="Ingredients-text">Sugar</p>
+                             <p class="Ingredients-numbers">40g</p>
+                            </div>
+                            
+                    
+                        </li>
+                        <li class="Ingredients-item">
+                            <div class="Ingredients-box">
+                             <p class="Ingredients-text">Vanilla sugar</p>
+                             <p class="Ingredients-numbers">10g</p>
+                            </div>
+                            
+                    
+                        </li>
+                     </ul>
+
+                   </div>
+                   
+                    <div class="form-order">
+                         <div class="form-fild">
+                            <label for="name" class="label-order"><span class="label-text">Name</span></label>
+                            <input type="text" placeholder=" "  id="name" class="form-input"/>
+
+                         </div>
+
+                         <div class="form-fild">
+                              
+                              <input type="tel" placeholder=" " id="phone"  class="form-input"/>
+                              <label for="phone" class="label-order"><span class="label-text">Phone</span> </label>
+
+                         </div>
+                               
+                        <div class="form-fild textarea"> 
+                             <textarea id="textarea" class="terea" placeholder=" "></textarea>
+                              <label for="textarea" class="label-order" ><span class="label-text">Comment</span></label>
+                        </div>
+                        
+                         <button type="submit" class="sub">Submit</button>
+                         
+                    </div>
+                           <button type="button" class="button-close">
+                            <svg class="close">
+                                <use href="./img/symbol-defs.svg#close"></use>
+                            </svg>
+                         </button> 
+                </form>
+            </div>
+
+            <div class="Franchis">
+                <form class="modal-buy modal-buy-fra">
+                    <p class="modal-tytel modal-tytel-fran">Thank you for your interest in owning an Ice Cream shop</p>
+                    <p class="lorem lorem-fra">Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this time. Once the application process resumes, we will contact you for further information. Please fill out the contact information below and we will reach out for additional information. We appreciate your patience.</p>
+                    <div class="form-order">
+                         <div class="form-fild">
+                            <input type="text" placeholder=" "  id="name" class="form-input"/>
+                            <label for="name" class="label-order"><span class="label-text">Name</span></label>
+
+                         </div>
+
+                         <div class="form-fild">
+                              
+                              <input type="tel" placeholder=" " id="phone"  class="form-input"/>
+                              <label for="phone" class="label-order"><span class="label-text">Phone</span> </label>
+
+                         </div>
+                         <div class="form-fild">
+                              
+                              <input type="mail" placeholder=" " id="mail"  class="form-input"/>
+                              <label for="mail" class="label-order"><span class="label-text">Mail</span> </label>
+
+                         </div>
+                               
+                        <div class="form-fild textarea"> 
+                             <textarea id="textarea" class="terea" placeholder=" "></textarea>
+                              <label for="textarea" class="label-order" ><span class="label-text">Comment</span></label>
+                        </div>
+                        
+                         <button type="submit" class="sub">Submit</button>
+                         
+                    </div>
+                    
+                           <button type="button" class="button-close" data-modal-close>
+                            <svg class="close">
+                                <use href="./img/symbol-defs.svg#close"></use>
+                            </svg>
+                         </button> 
+                </form>
+            </div>
+
+             <div class="how ">
+                    <form class="modal-how" >
+                    <p class="modal-tytel">How it’s made?</p>
+                    <div class="video"></div>
+                    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+
+                           <button type="button" class="button-close" data-modal-clo>
+                            <svg class="close">
+                                <use href="./img/symbol-defs.svg#close"></use>
+                            </svg>
+                         </button> 
+                     </form>
+
+                  </div>
    </div>                           
  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>  
  <script src="js/scrypt.js"></script>
