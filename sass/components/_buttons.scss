@@ -8,14 +8,19 @@
     bottom: 0;
     
 
-    // @media screen and (min-width:768px) {
-    //         margin-right: 32px;
-    //     }
+    @media screen and (min-width:768px) {
+            margin-right: 32px;
+
+        }
 
     @media screen and (min-width:1200px) {
         display: none;
     }
 
+}
+
+.menu-button.is-open .button-order {
+    display: none;
 }
 
 .menu-button .icon-close{
