@@ -2457,6 +2457,16 @@ section {
   pointer-events: none;
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 48, 58, 0.4);
+  z-index: 10000;
+}
+
 form {
   position: relative;
   padding: 29px 28px;
@@ -2482,7 +2492,8 @@ form {
       -ms-flex-align: center;
           align-items: center;
   width: 220px;
-  height: 100%;
+  height: 991px;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -2494,6 +2505,7 @@ form {
         -ms-flex-pack: center;
             justify-content: center;
     width: 512px;
+    height: 644px;
   }
 }
 
